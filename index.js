@@ -1,9 +1,11 @@
-let input1;
-let input2;
-let input3;
-let btnSend;
+// Referenciar elementos
+const input1 = document.getElementById("input-1");
+const input2 = document.getElementById("input-2");
+const input3 = document.getElementById("input-3");
+const btnSend = document.getElementById("btn-send-form-0");
 
-
+// Eventos
+// Calcular total a ser gasto com gasolina em R$
 function calcularTotal()
 {
     console.log(`Inputs\n1:${input1.value}, 2:${input2.value}, 3:${input3.value}`);
@@ -12,11 +14,5 @@ function calcularTotal()
         console.log(total);
 }
 
-document.addEventListener("DOMContentLoaded",()=>{
-    console.log("...")
-    input1 = document.getElementById("input-1");
-    input2 = document.getElementById("input-2");
-    input3 = document.getElementById("input-3");
-    btnSend = document.getElementById("btn-send-form-0")
-    btnSend.addEventListener("click", calcularTotal());
-});
+// Vincular o evento de envio do formulario
+btnSend.addEventListener("click", calcularTotal());
