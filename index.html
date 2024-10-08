@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta http-equiv="Content-Security-Policy" content="
+        default-src 'self'; 
+        script-src 'self'; 
+        img-src 'self' data:; 
+        connect-src 'self';
+        style-src 'self';"-->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>App</title>
+</head>
+<body> 
+    <div id="main-div">
+        <form id="form-0">
+                <header>
+                <img src="images/br_icon.jpg" width="50px" height="50px" style="margin-top: 10px;">
+                <h2>Calcular consumo <br> de gasolina</h2>
+                </header>
+                <hr>
+                <label for="input-db-key" class="user-select-none">Distância (Km)</label>
+                <input type="text" id="input-1" placeholder="..."/>
+                
+                <label for="input-db-value" class="user-select-none">Consumo (L)</label>
+                <input type="text" id="input-2" placeholder="..." />
+
+                <label for="input-db-value" class="user-select-none">Preço (R$)</label>
+                <input type="text" id="input-3" placeholder="..." />
+                <button id="btn-send-form-0" class="user-select-none">Enviar</button>
+        </form>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>
