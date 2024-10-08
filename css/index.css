@@ -202,8 +202,29 @@ br {
     border-width: 2px;
     border-color: #09454e;
     border-style: solid;
+    margin: 0px;
+    margin-left: 28%;
 }
 #form-0 button:hover
 {
     background-color: #bfd6dd;
+}
+
+#resultado
+{
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #797979;
+    color: #c0c0c0;
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    padding: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+
 }
